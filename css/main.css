@@ -1,1 +1,251 @@
-/* Los estilos de tu proyecto */
+/*
+#F7B617
+#010101
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #FFFFFF;
+  color: #010101;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border: 0;
+}
+
+.navbar-brand {
+  float: left;
+  min-height: 50px;
+  padding: 10px 15px 10px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+  color: #010101;
+  background-color: #FFFFFF;
+}
+
+.first {
+  height: 700px;
+}
+
+.bg {
+  background: url(../assets/images/taxi.jpg);
+  background-position: center;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 95%;
+  width: 100%;
+  height: 100%;
+  /*same height as jumbotron */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  margin-top: 10%;
+  padding-top: 15px;
+  height: auto;
+  float: right;
+  /*width: 25%;*/
+  color: #FFFFFF;
+  background: #F7B617;
+}
+
+.jumbotron>.container>h3 {
+  font-weight: bold;
+}
+
+.label-jumbotron {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.label-jumbotron>img {
+  height: 15px;
+  margin: 5px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.btn-register {
+  margin-top: 20px;
+  background: #FFFFFF;
+  text-transform: uppercase;
+  color: #000;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold padding:5px 10px;
+}
+
+.break-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.break-line>hr, .break-line>span {
+  flex: 1;
+  padding: 0 5px;
+}
+
+.btn-conviertete {
+  margin-top: 20px;
+  background: #FFFFFF;
+  color: #000;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold padding:5px 10px;
+}
+
+.btn-conductor {
+  margin-top: 20px;
+  background: #F7B617;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.yellow {
+  width: 100%;
+  height: auto;
+  background-color: #F7B617;
+}
+
+.panel-yellow {
+  margin: 50px 0;
+  border: 1px solid #fff;
+}
+
+.iphone-img {
+  margin: auto;
+  /*width: 70%;*/
+  padding: 20px 0;
+}
+.download {
+  color: #FFFFFF;
+}
+
+.download > h4 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.label-mobile {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.third {
+  display: flex;
+  height: 400px;
+}
+
+.bg-conduce {
+  background: url(../assets/images/conduce.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.label-conduce {
+  background: rgba(0, 0, 0, .5);
+  padding: 50px;
+  color: #fff;
+}
+
+.label-conduce> h4 {
+  font-weight: bold;
+}
+
+.btn-conductor {
+  color: #fff;
+}
+
+.tarifas-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.form-input{
+margin:20px 0;
+}
+
+.form-input > input{
+  background:  #F7B617;
+  border:#fff solid 1px;
+  border-radius: 3px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#fff;
+    opacity: 1;
+    font-size: 80%;
+    padding-left: 20px;
+}
+
+.mapa {
+  width: 100%;
+  height: auto;
+  background-color: #F7B617;
+}
+
+.mapa-panel{
+  margin:20px;
+  padding: 10px;
+  border:1px solid #fff;
+
+}
+
+.map-img {
+margin: auto;
+}
+
+.btn-trazar{
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 5px;
+  color:#000;
+  font-size: 12px;
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  background-color: #2B2B2B;
+  height: auto;
+  color:#fff;
+}
+.footer-container{
+  padding: 15px;
+}
+
+.footer-icons-list{
+  display: flex;
+}
+
+.footer-item{
+  color:#fff;
+  padding:7px;
+}
+
+.logo-app{
+  margin:10px 0;
+}
